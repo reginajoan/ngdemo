@@ -1,0 +1,17 @@
+<h3>List Author</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let author of listOfAuthor">
+            <td>{{author.id}}</td>
+            <td>{{author.name}}</td>
+            <td>{{author.email}}</td>
+        </tr>
+    </tbody>
+</table>
